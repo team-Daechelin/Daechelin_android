@@ -23,7 +23,8 @@
             android:text="로그인"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:textColor="#000000"/>
+            android:textColor="#000000"
+            android:fontFamily="@font/nexon_lv2_gothic"/>
 
         <TextView
             android:id="@+id/tv_login_email"
@@ -33,7 +34,8 @@
             android:textSize="12sp"
             android:textColor="#383838"
             android:textStyle="normal"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nexon_lv2_gothic"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/material_layout_email"
@@ -55,8 +57,12 @@
                 android:layout_height="46dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="14dp"
-                android:layout_marginTop="2dp"
-                android:textStyle="normal"/>
+                android:layout_marginTop="4dp"
+                android:textStyle="normal"
+                android:hint="이메일을 입력해주세요"
+                android:textSize="10sp"
+                android:fontFamily="@font/nexon_lv2_gothic"/>
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -67,7 +73,8 @@
             android:textSize="12sp"
             android:textColor="#383838"
             android:textStyle="normal"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nexon_lv2_gothic"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/material_layout_password"
@@ -91,8 +98,11 @@
                 android:paddingEnd="14dp"
                 android:drawableEnd="@drawable/dcl_eye"
                 android:drawablePadding="8dp"
-                android:layout_marginTop="2dp"
-                android:textStyle="normal"/>
+                android:layout_marginTop="4dp"
+                android:hint="비밀번호를 입력해주세요"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:fontFamily="@font/nexon_lv2_gothic"/>
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -107,6 +117,7 @@
             android:textStyle="bold"
             android:enabled="true"
             android:clickable="true"
+            android:fontFamily="@font/nexon_lv2_gothic"
             app:backgroundTint="#70ACF8"
             app:cornerRadius="10dp"/>
 
@@ -118,5 +129,6 @@
             android:textSize="12sp"
             android:textColor="#A5A5A5"
             android:layout_marginTop="12dp"
+            android:fontFamily="@font/nexon_lv2_gothic"
             android:layout_gravity="center"/>
     </LinearLayout>
